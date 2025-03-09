@@ -1,0 +1,50 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  padding: 10px 15px;
+  margin: 10px;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.image {
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.file-input {
+  margin-top: 10px;
+}
+
+.message {
+  font-size: 16px;
+  color: green;
+}
