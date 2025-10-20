@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 
-mongoose.connect('mongodb+srv://ishujoshi0401:F2-megaboutefa@cluster0.l6y3z.mongodb.net/', {
+mongoose.connect('', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
